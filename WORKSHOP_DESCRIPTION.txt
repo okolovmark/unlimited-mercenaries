@@ -1,0 +1,47 @@
+[h1]Unlimited Mercenaries (Player Only)[/h1]
+
+Removes the artificial scarcity from [b]every[/b] mercenary-pool mechanic in the game — for the human player only. AI factions are untouched.
+
+[h2]What it does (player factions only)[/h2]
+[list]
+[*]Every mercenary-pool unit gets [b]+30 pool capacity[/b]
+[*]Stock refills to cap on every save load, plus +1/turn native replenishment and +2/turn scripted top-up
+[*]Scripted unlock conditions (fealty, tech, buildings, missions) are lifted — hire from turn one
+[*]Per-army mercenary limit raised by [b]+17[/b] (3 → 20, 5 → 22)
+[*]Faction-wide caps of capped special units (Eltharion's Mistwalkers etc.) raised by +17
+[*]Hire costs are untouched: gold and special-resource prices stay vanilla
+[/list]
+
+[h2]Covered mechanics — 327 units across 22 pools[/h2]
+[list]
+[*]Dwarfs: Book of Grudges reconcilers, Malakai's adventure units
+[*]Empire: Elector Counts units, Imperial Supply (Wulfhart), Elspeth's Amethyst units + state troops unlocks
+[*]Greenskins: Waaagh! bands
+[*]Lizardmen: Blessed Spawnings (incl. Cult of Sotek rites)
+[*]Dark Elves: Rakarth's Monster Pen
+[*]Skaven: Throt's Flesh Lab, Ikit's Workshop prototypes, Snikch's doppelganger triads
+[*]High Elves: Eltharion's Mistwalkers (recruitment caps)
+[*]Chaos: daemonic summoning pools (WoC, Be'lakor), Nurgle unit pools, Slaanesh daemonic attraction
+[*]Ogre Kingdoms: ogre camps
+[*]Norsca: Monstrous Arcanum
+[*]Cathay: Shang-Yang support
+[*]Kislev: Zealous Conscription
+[/list]
+
+[h2]Not touched[/h2]
+Regiments of Renown (unique named regiments), raise-dead pools (province mechanics), Tamurkhan's chieftains (story companions).
+
+[h2]Notes[/h2]
+[list]
+[*]Save-game compatible: add or remove at any time
+[*]Unit cards can show "vanilla cap + 30" (31/32...) — the mod's pool entry stacks with the vanilla one, cosmetic only
+[*]The per-army limit label shows the base value; the actual enforced limit includes the +17 bonus
+[*]Units granted at the very moment of campaign creation (e.g. Elspeth's state troops) keep their vanilla cap, but their stock is topped up every turn
+[/list]
+
+[h2]Bug reports & source code[/h2]
+Found a pool that is not covered, wrong caps or any other issue? Please open an issue on GitHub:
+[url=https://github.com/okolovmark/unlimited-mercenaries/issues]github.com/okolovmark/unlimited-mercenaries/issues[/url]
+
+Full source code and the build toolchain (PowerShell, no Assembly Kit / RPFM — the mod is generated from the game's own db):
+[url=https://github.com/okolovmark/unlimited-mercenaries]github.com/okolovmark/unlimited-mercenaries[/url]
